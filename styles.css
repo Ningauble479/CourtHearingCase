@@ -9,11 +9,17 @@ html {
 
 body {
     background-color: orange!important;
-    color: whitesmoke;
+    color: whitesmoke!important;
 }
 
 i {
+    transition: .1s all;
     color: black
+}
+
+i:hover {
+    transition: .1s all;
+    color: whitesmoke;
 }
 
 .picture {
@@ -41,7 +47,12 @@ i {
 .title {
     font-size: 50px;
     text-align: center;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    color: black;
+}
+
+.display-1 {
+    font-weight: bold!important;
 }
 
 #courtLink {
@@ -56,5 +67,14 @@ i {
 @media screen and (max-width: 640px){
     #footer {
         background-color: rgba(0, 0, 0, .1);
+    }
+
+    .display-1 {
+        padding-top: 20px;
+        font-size: 50px!important;
+    }
+
+    .title {
+        margin-bottom: 20px;
     }
 }
