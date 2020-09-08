@@ -1,0 +1,14 @@
+.picture {
+    background: orange;
+    min-width: 75%;
+    min-height: 100px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+.textBody {
+    text-align: center;
+}
